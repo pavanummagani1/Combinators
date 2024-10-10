@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 50px 100px;
+}
+.button{
+    background-color: #EC8305;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10%;
+    border-color: #EC8305;
+    width: 10%;
+    font-size: 20px;
+    margin-left: 130px;
+}
+.image-container{
+    margin-top: 100px;
+}
+img{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+.image-container>.image1{
+    display: none;
+    transition: display 0.5s;
+}
+.btn1:hover~.image-container>.image1{
+    display: block;
+}
+
+/* button2 */
+.image-container>.image2{
+    display: none;
+    transition: display 0.5s;
+}
+.btn2:hover~.image-container>.image2{
+    display: block;
+}
+
+/* button3 */
+.image-container>.image3{
+    display: none;
+    transition: all 0.5s;
+}
+.btn3:hover~.image-container>.image3{
+    display: block;
+}
+
+/*button 4*/
+.image-container>.image4{
+    display: none;
+    transition: all 0.5s;
+}
+.btn4:hover~.image-container>.image4{
+    display: block;
+}
